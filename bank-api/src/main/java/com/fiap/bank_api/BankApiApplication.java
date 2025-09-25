@@ -17,5 +17,6 @@ public class BankApiApplication {
         @GetMapping("/")
         public String home() {
             return "Projeto Bank - Victor Rodrigues e Renato Silva Alexandre Bezerra"; 
+        }
     }
 }
